@@ -12,7 +12,6 @@ currUser = ''
 def SignUp():
     while True:
         try:
-    
             newusername = input("Enter new username:")
             if not newusername : 
                 return
